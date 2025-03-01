@@ -1,14 +1,5 @@
 //Date: 16th Jan, 2024
-//Description: This is a program for memory game. we will accept the name of 
-// the player then the game beings , the player will need to enter the coor-
-//dinates of the cards to flip them. The game will continue until the player
-//either finds and matches all the numbers or quits midway through the game
-//either way after the end of the game results will be recorded in the 
-//output.txt file. If they completed it successfully we will display the no.
-//of turns taken to complete the game. 
-/*********
-assignment 1 template
-*********/
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -190,75 +181,3 @@ bool CheckWin(bool faceup[][LENGTH]) {
     }
     return true; 
 }
-
-/*Output:
-Welcome to my game!
-Please enter your full name: 
-jake peralta
-Find all the matching pairs on the board!
-    0 1 2 3
-   =========
-0 | * * * * |
-1 | * * * * |
-2 | * * * * |
-3 | * * * * |
-   =========
-Press q to quit
-Enter x and y position of the first card 0 0
-Enter x and y position of the second card: 0 2
-No match. Try again!
-    0 1 2 3
-   =========
-0 | 6 * 8 * |
-1 | * * * * |
-2 | * * * * |
-3 | * * * * |
-   =========
-    0 1 2 3
-   =========
-0 | * * * * |
-1 | * * * * |
-2 | * * * * |
-3 | * * * * |
-   =========
-Press q to quit
-Enter x and y position of the first card 1 2
-Enter x and y position of the second card: 2 2
-No match. Try again!
-    0 1 2 3
-   =========
-0 | * * * * |
-1 | * * 8 * |
-2 | * * 5 * |
-3 | * * * * |
-   =========
-    0 1 2 3
-   =========
-0 | * * * * |
-1 | * * * * |
-2 | * * * * |
-3 | * * * * |
-   =========
-Press q to quit
-Enter x and y position of the first card 0 1
-Enter x and y position of the second card: 03
-0
-No match. Try again!
-    0 1 2 3
-   =========
-0 | * 3 * * |
-1 | * * * * |
-2 | * * * * |
-3 | 7 * * * |
-   =========
-    0 1 2 3
-   =========
-0 | * * * * |
-1 | * * * * |
-2 | * * * * |
-3 | * * * * |
-   =========
-Press q to quit
-Enter x and y position of the first card q
-Thanks for playing!!!
-*/
