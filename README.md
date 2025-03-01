@@ -7,6 +7,7 @@ After each turn if the user wants to quit midway they can just enter q and the g
 The game will end if all the numbers are matched or if the user quits before that. 
 After the code ends the outcome of the game is recorded in a txt file called "output.txt". If the user quits, it will say: "<name_entered> don’t give up!". If the user completes the game it will record the number of turns it took to complete the game. 
 
+```
 Output:
 Welcome to my game!
 Please enter your full name: 
@@ -77,3 +78,4 @@ No match. Try again!
 Press q to quit
 Enter x and y position of the first card q
 Thanks for playing!!!
+```
